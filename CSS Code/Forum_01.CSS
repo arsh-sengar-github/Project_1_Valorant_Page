@@ -1,0 +1,619 @@
+.Temporary {
+    /* border-width: 2px;
+    border-color: red;
+    border-style: dotted; */
+}
+
+.First_Tier_Background {
+    background-image: url('../Resources/Images/Background_01.gif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Second_Tier_Background {
+    border-style: hidden;
+    border-radius: 8px;
+    background-image: url('../Resources/Images/Background_02.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+
+.Third_Tier_Background {
+    border-style: hidden;
+    border-radius: 8px;
+    background-image: url('../Resources/Images/Background_03.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.Fourth_Tier_Background {
+    background-image: url('../Resources/Images/Background_04.webp');
+}
+
+.Fifth_Tier_Background {
+    background-image: url('../Resources/Images/Background_05.png');
+}
+
+.Sixth_Tier_Background {
+    background-image: url('../Resources/Images/Background_06.webp');
+}
+
+.First_Tier_Text {
+    color: black;
+    text-decoration: none;
+    font-size: 80px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.Semi_First_Tier_Text {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.Second_Tier_Text {
+    color: #12d4b4;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px;
+    font-size: 40px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.Semi_Second_Tier_Text {
+    color: #12d4b4;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px;
+    font-size: 30px;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.Third_Tier_Text {
+    color: #54e4f5;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Semi_Third_Tier_Text {
+    color: #54e4f5;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Fourth_Tier_Text {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Input_Text {
+    margin: 0px 0px;
+    padding: 8px 8px;
+    border-style: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 0.8px #f94555;
+    background-color: #23252c;
+    transition: padding 0.8s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.Input_Text:hover {
+    padding: 16px 12px;
+}
+
+.Input_Text:enabled {
+    color: #54e4f5;
+    caret-color: #12d4b4;
+    outline: none;
+}
+
+.Input_Text::placeholder {
+    color: #54e4f5;
+    text-decoration: none;
+    opacity: 0.4;
+    font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Input_Number {
+    margin: 0px 0px;
+    padding: 8px 8px;
+    border-style: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 0.8px #f94555;
+    background-color: #23252c;
+    transition: padding 0.8s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.Input_Number:hover {
+    padding: 16px 12px;
+}
+
+.Input_Number:enabled {
+    color: #54e4f5;
+    caret-color: #12d4b4;
+    outline: none;
+}
+
+.Input_Number::placeholder {
+    color: #54e4f5;
+    text-decoration: none;
+    opacity: 0.4;
+    font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+::-webkit-inner-spin-button {
+    margin: 0px 0px;
+    -webkit-appearance: none;
+}
+
+.Input_Date {
+    margin: 0px 0px;
+    padding: 8px 8px;
+    border-style: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 0.8px #f94555;
+    background-color: #23252c;
+    font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    transition: padding 0.8s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.Input_Date:hover {
+    padding: 16px 12px;
+}
+
+.Input_Date:enabled {
+    color: #54e4f5;
+    caret-color: #12d4b4;
+    outline: none;
+}
+
+::-webkit-calendar-picker-indicator {
+    margin: 0px 0px;
+    padding: 4px 4px;
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: #f94555;
+    cursor: pointer;
+}
+
+.Select_Item {
+    margin: 0px 0px;
+    padding: 8px 8px;
+    border-style: hidden;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 0.8px #f94555;
+    background-color: #23252c;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+    background-position-y: 8px;
+    font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
+    transition: padding 0.8s, background-position-x 0.8s, background-position-y 0.8s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.Select_Item:hover {
+    padding: 16px 12px;
+    background-position-x: 88px;
+    background-position-y: 16px;
+}
+
+.Select_Item:enabled {
+    color: #54e4f5;
+    caret-color: #12d4b4;
+    outline: none;
+}
+
+.Button {
+    margin: 0px 0px;
+    padding: 16px 16px;
+    border-style: hidden;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 0.8px #f94555;
+    background-color: #23252c;
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: padding 0.4s, background-size 0.4s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.Button:hover {
+    padding: 20px 20px;
+    border-style: ridge;
+    border-radius: 16px;
+    border-color: #f94555;
+    background-size: 54px;
+    color: transparent;
+}
+
+#valorant_logo {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: inline-block;
+    width: 80px;
+    border-style: hidden;
+    border-radius: 8px;
+}
+
+#heading {
+    margin: 20px auto;
+    padding: 0px 0px;
+    display: inline-block;
+    position: relative;
+    left: 420px;
+}
+
+#navigation_menu {
+    margin: 20px auto;
+    padding: 0px 0px;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+#first_element {
+    margin: 0px 20px;
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+#play:hover {
+    color: #54e4f5;
+}
+
+#second_element {
+    margin: 0px 20px;
+    padding: 0px 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#drop_box {
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    border-style: hidden;
+    border-radius: 8px;
+    background-color: #040e19;
+    box-shadow: 4px 4px 8px 2px #12d4b4;
+}
+
+#about_game:hover {
+    color: #54e4f5;
+}
+
+#second_element:hover #drop_box {
+    display: block;
+}
+
+#drop_box a {
+    display: block;
+}
+
+#drop_box a:hover {
+    border-style: hidden;
+    border-radius: 8px;
+    color: #c4404a;
+    background-color: #3b2c3b;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+#first_priority_element {
+    margin: 20px auto;
+    padding: 0px 0px;
+    width: 600px;
+    float: left;
+}
+
+#first_article {
+    margin: 20px 0px 0px 20px;
+    width: 280px;
+    float: left;
+}
+
+#second_article {
+    margin: 527.125px 20px 0px 0px;
+    width: 280px;
+    float: right;
+}
+
+#third_article {
+    margin: 458.458px 0px 20px 20px;
+    width: 280px;
+    float: left;
+}
+
+#second_priority_element {
+    margin: 20px auto;
+    padding: 0px 0px;
+    width: 600px;
+    float: right;
+}
+
+#form_first_heading {
+    margin: 16px 16px;
+    padding: 4px 4px;
+    list-style: none;
+    text-align: center;
+}
+
+#form_second_heading {
+    margin: 16px 16px;
+    padding: 4px 4px;
+    list-style: none;
+    text-align: center;
+}
+
+#form_name {
+    margin: 8px 8px;
+    padding: 2px 2px;
+    list-style: none;
+    overflow: auto;
+}
+
+#form_name li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 192px;
+    float: left;
+}
+
+#form_input_name {
+    margin: 8px 8px;
+    padding: 2px 2px;
+    list-style: none;
+    overflow: auto;
+}
+
+#form_input_name li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 192px;
+    float: left;
+}
+
+#form_date_of_birth {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: left;
+}
+
+#form_input_date_of_birth {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+#form_input_date_of_birth li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: left;
+}
+
+#form_gender {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_select_gender {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    overflow: auto;
+    float: right;
+    clear: right;
+}
+
+#form_select_gender li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_email_id {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: left;
+    clear: left;
+}
+
+#form_input_email_id {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+#form_input_email_id li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: left;
+}
+
+#form_phone_number {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_input_phone_number {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    overflow: auto;
+    float: right;
+    clear: right;
+}
+
+#form_input_phone_number li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_riot_id {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: left;
+    clear: left;
+}
+
+#form_input_riot_id {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+#form_input_riot_id li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: left;
+}
+
+#form_tagline {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_input_tagline {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    overflow: auto;
+    float: right;
+    clear: right;
+}
+
+#form_input_tagline li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#form_password {
+    margin: 8px 202px;
+    padding: 2px 2px;
+    list-style: none;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+#form_input_password {
+    margin: 8px 202px;
+    padding: 2px 2px;
+    list-style: none;
+    overflow: auto;
+    float: left;
+    clear: left;
+}
+
+#form_input_password li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: block;
+    float: left;
+}
+
+#form_submit_button {
+    margin: 8px 4px 8px 8px;
+    padding: 2px 1px 2px 2px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: left;
+    clear: left;
+    text-align: right;
+}
+
+#form_clear_button {
+    margin: 8px 8px 8px 4px;
+    padding: 2px 2px 2px 1px;
+    list-style: none;
+    display: block;
+    width: 285px;
+    float: right;
+}
+
+#foot_element {
+    clear: both;
+}
+
+#riot_logo {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 40px;
+}
+
+#foot_element details summary::marker {
+    display: none;
+    content: "";
+}
+
+#foot_element details summary img, span {
+    cursor: pointer;
+}
